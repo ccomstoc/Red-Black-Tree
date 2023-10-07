@@ -1,0 +1,82 @@
+baby0 27 1
+baby1 80 1
+baby2 65 77
+baby3 30 80
+baby4 45 2
+baby5 2 30
+baby6 90 12
+baby7 88 89
+baby8 78 20
+baby9 74 21
+baby10 75 22
+baby11 7 80
+baby12 40 76
+baby13 43 65
+baby14 47 64
+baby15 50 15
+baby16 1 29
+baby17 58 29
+------------------
+Inorder:
+Baby: baby16 Shatter Score: 1 Weapon: 29  color: 1 parent data : Baby: baby5 Shatter Score: 2 Weapon: 30
+Baby: baby5 Shatter Score: 2 Weapon: 30  color: 0 parent data : Baby: baby11 Shatter Score: 7 Weapon: 80
+Baby: baby11 Shatter Score: 7 Weapon: 80  color: 0 parent data : Baby: baby3 Shatter Score: 30 Weapon: 80
+Baby: baby0 Shatter Score: 27 Weapon: 1  color: 0 parent data : Baby: baby11 Shatter Score: 7 Weapon: 80
+Baby: baby3 Shatter Score: 30 Weapon: 80  color: 1 parent data : Baby: baby2 Shatter Score: 65 Weapon: 77
+Baby: baby12 Shatter Score: 40 Weapon: 76  color: 0 parent data : Baby: baby13 Shatter Score: 43 Weapon: 65
+Baby: baby13 Shatter Score: 43 Weapon: 65  color: 0 parent data : Baby: baby3 Shatter Score: 30 Weapon: 80
+Baby: baby4 Shatter Score: 45 Weapon: 2  color: 0 parent data : Baby: baby14 Shatter Score: 47 Weapon: 64
+Baby: baby14 Shatter Score: 47 Weapon: 64  color: 1 parent data : Baby: baby13 Shatter Score: 43 Weapon: 65
+Baby: baby15 Shatter Score: 50 Weapon: 15  color: 0 parent data : Baby: baby14 Shatter Score: 47 Weapon: 64
+Baby: baby17 Shatter Score: 58 Weapon: 29  color: 1 parent data : Baby: baby15 Shatter Score: 50 Weapon: 15
+Baby: baby2 Shatter Score: 65 Weapon: 77  color: 0 parent is null...
+Baby: baby9 Shatter Score: 74 Weapon: 21  color: 0 parent data : Baby: baby8 Shatter Score: 78 Weapon: 20
+Baby: baby10 Shatter Score: 75 Weapon: 22  color: 1 parent data : Baby: baby9 Shatter Score: 74 Weapon: 21
+Baby: baby8 Shatter Score: 78 Weapon: 20  color: 1 parent data : Baby: baby7 Shatter Score: 88 Weapon: 89
+Baby: baby1 Shatter Score: 80 Weapon: 1  color: 0 parent data : Baby: baby8 Shatter Score: 78 Weapon: 20
+Baby: baby7 Shatter Score: 88 Weapon: 89  color: 0 parent data : Baby: baby2 Shatter Score: 65 Weapon: 77
+Baby: baby6 Shatter Score: 90 Weapon: 12  color: 0 parent data : Baby: baby7 Shatter Score: 88 Weapon: 89
+
+------------------
+Preorder:
+Baby: baby2 Shatter Score: 65 Weapon: 77  color: 0 parent is null...
+Baby: baby3 Shatter Score: 30 Weapon: 80  color: 1 parent data : Baby: baby2 Shatter Score: 65 Weapon: 77
+Baby: baby11 Shatter Score: 7 Weapon: 80  color: 0 parent data : Baby: baby3 Shatter Score: 30 Weapon: 80
+Baby: baby5 Shatter Score: 2 Weapon: 30  color: 0 parent data : Baby: baby11 Shatter Score: 7 Weapon: 80
+Baby: baby16 Shatter Score: 1 Weapon: 29  color: 1 parent data : Baby: baby5 Shatter Score: 2 Weapon: 30
+Baby: baby0 Shatter Score: 27 Weapon: 1  color: 0 parent data : Baby: baby11 Shatter Score: 7 Weapon: 80
+Baby: baby13 Shatter Score: 43 Weapon: 65  color: 0 parent data : Baby: baby3 Shatter Score: 30 Weapon: 80
+Baby: baby12 Shatter Score: 40 Weapon: 76  color: 0 parent data : Baby: baby13 Shatter Score: 43 Weapon: 65
+Baby: baby14 Shatter Score: 47 Weapon: 64  color: 1 parent data : Baby: baby13 Shatter Score: 43 Weapon: 65
+Baby: baby4 Shatter Score: 45 Weapon: 2  color: 0 parent data : Baby: baby14 Shatter Score: 47 Weapon: 64
+Baby: baby15 Shatter Score: 50 Weapon: 15  color: 0 parent data : Baby: baby14 Shatter Score: 47 Weapon: 64
+Baby: baby17 Shatter Score: 58 Weapon: 29  color: 1 parent data : Baby: baby15 Shatter Score: 50 Weapon: 15
+Baby: baby7 Shatter Score: 88 Weapon: 89  color: 0 parent data : Baby: baby2 Shatter Score: 65 Weapon: 77
+Baby: baby8 Shatter Score: 78 Weapon: 20  color: 1 parent data : Baby: baby7 Shatter Score: 88 Weapon: 89
+Baby: baby9 Shatter Score: 74 Weapon: 21  color: 0 parent data : Baby: baby8 Shatter Score: 78 Weapon: 20
+Baby: baby10 Shatter Score: 75 Weapon: 22  color: 1 parent data : Baby: baby9 Shatter Score: 74 Weapon: 21
+Baby: baby1 Shatter Score: 80 Weapon: 1  color: 0 parent data : Baby: baby8 Shatter Score: 78 Weapon: 20
+Baby: baby6 Shatter Score: 90 Weapon: 12  color: 0 parent data : Baby: baby7 Shatter Score: 88 Weapon: 89
+
+------------------
+Postorder:
+Baby: baby16 Shatter Score: 1 Weapon: 29  color: 1 parent data : Baby: baby5 Shatter Score: 2 Weapon: 30
+Baby: baby5 Shatter Score: 2 Weapon: 30  color: 0 parent data : Baby: baby11 Shatter Score: 7 Weapon: 80
+Baby: baby0 Shatter Score: 27 Weapon: 1  color: 0 parent data : Baby: baby11 Shatter Score: 7 Weapon: 80
+Baby: baby11 Shatter Score: 7 Weapon: 80  color: 0 parent data : Baby: baby3 Shatter Score: 30 Weapon: 80
+Baby: baby12 Shatter Score: 40 Weapon: 76  color: 0 parent data : Baby: baby13 Shatter Score: 43 Weapon: 65
+Baby: baby4 Shatter Score: 45 Weapon: 2  color: 0 parent data : Baby: baby14 Shatter Score: 47 Weapon: 64
+Baby: baby17 Shatter Score: 58 Weapon: 29  color: 1 parent data : Baby: baby15 Shatter Score: 50 Weapon: 15
+Baby: baby15 Shatter Score: 50 Weapon: 15  color: 0 parent data : Baby: baby14 Shatter Score: 47 Weapon: 64
+Baby: baby14 Shatter Score: 47 Weapon: 64  color: 1 parent data : Baby: baby13 Shatter Score: 43 Weapon: 65
+Baby: baby13 Shatter Score: 43 Weapon: 65  color: 0 parent data : Baby: baby3 Shatter Score: 30 Weapon: 80
+Baby: baby3 Shatter Score: 30 Weapon: 80  color: 1 parent data : Baby: baby2 Shatter Score: 65 Weapon: 77
+Baby: baby10 Shatter Score: 75 Weapon: 22  color: 1 parent data : Baby: baby9 Shatter Score: 74 Weapon: 21
+Baby: baby9 Shatter Score: 74 Weapon: 21  color: 0 parent data : Baby: baby8 Shatter Score: 78 Weapon: 20
+Baby: baby1 Shatter Score: 80 Weapon: 1  color: 0 parent data : Baby: baby8 Shatter Score: 78 Weapon: 20
+Baby: baby8 Shatter Score: 78 Weapon: 20  color: 1 parent data : Baby: baby7 Shatter Score: 88 Weapon: 89
+Baby: baby6 Shatter Score: 90 Weapon: 12  color: 0 parent data : Baby: baby7 Shatter Score: 88 Weapon: 89
+Baby: baby7 Shatter Score: 88 Weapon: 89  color: 0 parent data : Baby: baby2 Shatter Score: 65 Weapon: 77
+Baby: baby2 Shatter Score: 65 Weapon: 77  color: 0 parent is null...
+
+depth: 6

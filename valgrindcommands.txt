@@ -1,0 +1,2 @@
+valgrind --tool=memcheck --log-file=valgrind.txt ./blah
+valgrind --tool=memcheck --log-file=valgrind.txt --leak-check=full ./blah 
